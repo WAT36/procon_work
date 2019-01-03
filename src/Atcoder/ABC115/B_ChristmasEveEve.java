@@ -49,5 +49,4 @@ public class B_ChristmasEveEve {
 
 		System.out.println(sum);
 	}
-
 }
