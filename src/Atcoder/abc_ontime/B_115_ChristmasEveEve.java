@@ -1,4 +1,4 @@
-package Atcoder.abc115;
+package Atcoder.abc_ontime;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,7 +22,7 @@ import java.util.Scanner;
 //:
 //pN
 
-public class B_ChristmasEveEve {
+public class B_115_ChristmasEveEve {
 
 	public static void main(String args[]) {
 

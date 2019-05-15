@@ -1,4 +1,4 @@
-package Atcoder.abc114;
+package Atcoder.abc_ontime;
 
 import java.util.Scanner;
 
@@ -11,7 +11,7 @@ import java.util.Scanner;
 //1≤X≤9
 //X は整数である。
 
-public class A_753 {
+public class A_114_753 {
 
 	public static void main(String args[]) {
 

@@ -1,4 +1,4 @@
-package Atcoder.abc114;
+package Atcoder.abc_ontime;
 
 import java.util.Scanner;
 
@@ -10,7 +10,7 @@ import java.util.Scanner;
 //制約
 //S は長さ 4 以上 10 以下の文字列である。S の各文字は 1, 2, ..., 9 のいずれかである。
 
-public class B_754 {
+public class B_114_754 {
 
 	public static void main(String args[]) {
 

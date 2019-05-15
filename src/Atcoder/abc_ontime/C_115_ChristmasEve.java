@@ -1,4 +1,4 @@
-package Atcoder.abc115;
+package Atcoder.abc_ontime;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,7 +22,7 @@ import java.util.Scanner;
 //hi は整数である。
 
 
-public class C_ChristmasEve {
+public class C_115_ChristmasEve {
 
 	public static void main(String args[]) {
 

@@ -1,8 +1,8 @@
-package Atcoder.abc124;
+package Atcoder.abc_ontime;
 
 import java.util.Scanner;
 
-public class C_ColoringColorfully {
+public class C_124_ColoringColorfully {
 
 	public static void main(String args[]) {
 

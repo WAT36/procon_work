@@ -1,8 +1,8 @@
-package Atcoder.abc124;
+package Atcoder.abc_ontime;
 
 import java.util.Scanner;
 
-public class A_Button {
+public class A_120_Sound {
 
 	public static void main(String args[]) {
 
@@ -10,14 +10,14 @@ public class A_Button {
 
 		int A = sc.nextInt();
 		int B = sc.nextInt();
+		int C = sc.nextInt();
 
-		if(A > B) {
-			System.out.println(A + (A-1));
-		}else if(A == B) {
-			System.out.println(A + B);
+		if((B/A) > C) {
+			System.out.println(C);
 		}else {
-			System.out.println(B + (B-1));
+			System.out.println(B/A);
 		}
+
 	}
 
 }
