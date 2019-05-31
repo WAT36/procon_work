@@ -12,7 +12,7 @@ public class C_089_March {
 		sc.nextLine();
 
 		String[] S = new String[N];
-		long[] march = new int[5];
+		long[] march = new long[5];
 		for(int i=0;i<N;i++) {
 			S[i] = sc.nextLine();
 
