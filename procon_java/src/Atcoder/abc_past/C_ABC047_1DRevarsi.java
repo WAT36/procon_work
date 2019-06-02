@@ -27,8 +27,6 @@ public class C_ABC047_1DRevarsi {
 		}
 		bw.add(temp);
 
-		System.out.println(bw.toString());
 		System.out.println(bw.size()-1);
 	}
-
 }
