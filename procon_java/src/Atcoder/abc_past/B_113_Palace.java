@@ -25,7 +25,6 @@ public class B_113_Palace {
 				near_i = i;
 			}
 		}
-
 		System.out.println(near_i+1);
 	}
 }
