@@ -1,0 +1,3 @@
+# -*- coding:utf-8 -*-
+s = input()
+print(s[:4] + " " + s[4:])
