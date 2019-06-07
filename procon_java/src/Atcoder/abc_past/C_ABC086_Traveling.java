@@ -36,8 +36,6 @@ public class C_ABC086_Traveling {
 				return;
 			}
 		}
-
 		System.out.println("Yes");
 	}
-
 }
