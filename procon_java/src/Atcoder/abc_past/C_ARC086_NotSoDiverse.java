@@ -26,5 +26,4 @@ public class C_ARC086_NotSoDiverse {
 		}
 		System.out.println(ans);
 	}
-
 }
