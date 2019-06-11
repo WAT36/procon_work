@@ -22,5 +22,4 @@ public class C_085_Otoshidama {
 		}
 		System.out.println("-1 -1 -1");
 	}
-
 }
