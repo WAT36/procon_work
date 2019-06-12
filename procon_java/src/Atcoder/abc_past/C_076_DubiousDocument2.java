@@ -16,7 +16,6 @@ public class C_076_DubiousDocument2 {
 			int k = i;
 			boolean flag = true;
 			for(int j=0;j<T.length();j++) {
-				System.out.println("i:"+i+",j:"+j+",k:"+k+",temp:"+temp);
 				if(Sdash.charAt(k) != '?' && T.charAt(j) != Sdash.charAt(k)) {
 					flag = false;
 					break;
