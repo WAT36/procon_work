@@ -26,8 +26,6 @@ for i in range(M):
     y = iy[i]
     p = yp[y]
     x = py[p].index(y)
-    pref = "000000" + str(p)
-    pref = pref[-6:]
-    X = "000000" + str(x+1)
-    X = X[-6:]
+    pref = ("000000" + str(p))[-6:]
+    X = ("000000" + str(x+1))[-6:]
     print(pref + X)
