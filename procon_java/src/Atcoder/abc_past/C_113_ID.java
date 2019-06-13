@@ -2,43 +2,44 @@ package Atcoder.abc_past;
 
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.List;
+import java.util.Map;
 import java.util.Scanner;
+import java.util.TreeMap;
 
 public class C_113_ID {
 
 	public static void main(String args[]) {
 
 		Scanner sc = new Scanner(System.in);
-		String[] s = sc.nextLine().split(" ");
+		int N = sc.nextInt();
+		int M = sc.nextInt();
 
-		int N = Integer.parseInt(s[0]);
-		int M = Integer.parseInt(s[1]);
-
-		List<ArrayList<Integer>> num = new ArrayList<ArrayList<Integer>>();
-		List<String> numlist = new ArrayList<String>();
-
+		ArrayList<ArrayList<Long>> py = new ArrayList<ArrayList<Long>>();
+		Map<Integer,Long> iy = new TreeMap<>();
+		Map<Long,Integer> yp = new TreeMap<>();
 		for(int i=0;i<N;i++) {
-			ArrayList<Integer> l = new ArrayList<Integer>();
-			num.add(l);
+			ArrayList<Long> p = new ArrayList<>();
+			py.add(p);
 		}
 
 		for(int i=0;i<M;i++) {
-			s = sc.nextLine().split(" ");
-			int p = Integer.parseInt(s[0]);
-			int y = Integer.parseInt(s[1]);
-			num.get(p-1).add(y);
+			int P = sc.nextInt();
+			long Y = sc.nextInt();
+			iy.put(i, Y);
+			yp.put(Y, P);
+			py.get(P-1).add(Y);
+			Collections.sort(py.get(P-1));
 		}
 
-		for(int i=0;i<N;i++) {
-			for(int j=0;j<num.get(i).size();j++) {
-				StringBuffer n = new StringBuffer(String.format("%06d", i+1) + String.format("%06d", j+1));
-				numlist.add(n.reverse().toString());
-			}
-		}
-		Collections.sort(numlist);
-		for(int i=numlist.size()-1;i>=0;i--) {
-			System.out.println(new StringBuffer(numlist.get(i)).reverse().toString());
+		for(int i=0;i<M;i++) {
+			long y = iy.get(i);
+			int p = yp.get(y);
+			int x = py.get(p-1).indexOf(y);
+			String pref = "000000" + String.valueOf(p);
+			pref = pref.substring(pref.length() - 6);
+			String X = "000000" + String.valueOf(x+1);
+			X = X.substring(X.length() - 6);
+			System.out.println(pref + X);
 		}
 	}
 }
