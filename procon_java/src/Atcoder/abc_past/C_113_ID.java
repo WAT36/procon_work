@@ -20,6 +20,7 @@ public class C_113_ID {
 			int Y = sc.nextInt();
 			iyp[i] = new int[] {P,Y,i};
 		}
+		//配列の[1]の要素で比較・ソート
 		Arrays.sort(iyp,(a,b)->Integer.compare(a[1],b[1]));
 		for(int i=0;i<M;i++) {
 			String temp = String.format("%06d%06d", iyp[i][0],++count[iyp[i][0]]);
