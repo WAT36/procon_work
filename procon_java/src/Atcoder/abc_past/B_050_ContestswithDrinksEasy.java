@@ -30,9 +30,5 @@ public class B_050_ContestswithDrinksEasy {
 			ans += X[i];
 			System.out.println(ans);
 		}
-
-
-
 	}
-
 }
