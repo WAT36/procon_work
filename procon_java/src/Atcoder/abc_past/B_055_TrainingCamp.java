@@ -18,5 +18,4 @@ public class B_055_TrainingCamp {
 		}
 		System.out.println(ans);
 	}
-
 }
