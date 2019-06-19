@@ -33,5 +33,4 @@ public class B_108_RuinedSquare {
 
 		System.out.println(x3+" "+y3+" "+x4+" "+y4);
 	}
-
 }
