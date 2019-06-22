@@ -28,4 +28,13 @@ public class MyMath {
 		}
 	}
 
+	//m以上n以下でのaの倍数の個数
+	//(ABC131-C)しかしこれよりもn/a - m/a での方が早い
+	public static long divisornum(double m,double n,double a) {
+		long mindiv = (long) Math.ceil(m/a);
+		long maxdiv = (long) Math.floor(n/a);
+		return (maxdiv - mindiv) + 1;
+	}
+
+
 }

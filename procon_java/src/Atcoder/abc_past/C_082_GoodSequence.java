@@ -38,5 +38,4 @@ public class C_082_GoodSequence {
 		}
 		System.out.println(ans);
 	}
-
 }
