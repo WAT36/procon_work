@@ -18,10 +18,6 @@ public class D_134_PreparingBox {
 
 		int[] b = new int[N+1];
 		List<Integer> balli = new ArrayList<>();
-
-		int M = N;
-		int balls = 0;
-
 		for(int i=N;i>0;i--) {
 
 			int iball = 0;
