@@ -35,5 +35,4 @@ public class B_057_CheckPoints {
 			System.out.println(ans);
 		}
 	}
-
 }
