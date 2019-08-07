@@ -16,8 +16,6 @@ public class B_102_MaximumDifference {
 			if(max < A) max = A;
 			if(min > A) min = A;
 		}
-
 		System.out.println(max - min);
 	}
-
 }
