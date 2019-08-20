@@ -41,21 +41,22 @@ public class graph {
 
 			// スタックの一番上の点 に隣接する点のリスト
 			List<Integer> vlist = graph.get(top_v);
-			// 隣接する点のリストから最初の訪問済ではない点を取得、全て訪問済みなら -1 とする
+			// 隣接する点のリストからまだ訪問済ではない(最初の)点を取得、全て訪問済みなら -1 とする
 			int i = 0;
 			while (i < vlist.size() && (color[vlist.get(i)] == BLACK || color[vlist.get(i)] == GLAY))
 				i++;
 			int next_v = (i < vlist.size()) ? vlist.get(i) : -1;
 			System.out.println(top_v + "," + next_v);
+			//訪問してない隣接点があるか無いかで条件分岐
 			if (next_v != -1) {
-				// 隣接点がある
+				// 訪問してない隣接点がある
 				if (color[next_v] == WHITE) {
 					color[next_v] = GLAY;
 					df[next_v][0] = ++time;
 					stack.add(next_v);
 				}
 			} else {
-				// 隣接点がない
+				// 隣接点は全て訪問済
 				stack.remove(stack.size() - 1);
 				color[top_v] = BLACK;
 				df[top_v][1] = ++time;
