@@ -9,6 +9,5 @@ d = {}
 for i,v in enumerate(a_set):
     d[v] = i
 
-
 for i in range(N):
     print(d[a[i]])
