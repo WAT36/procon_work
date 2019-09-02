@@ -16,4 +16,3 @@ while(True):
     else:
         print("NO")
         break
-
