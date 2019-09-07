@@ -2,7 +2,6 @@ n=int(input())
 w=["a","b","c"]
 full_num=3**n
 for i in range(full_num):
-    pass_i=[]
     temp_i = i
     temp_n = n
     password=""
