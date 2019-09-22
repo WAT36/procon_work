@@ -1,5 +1,5 @@
 import bisect
-from decimal import Decimal, ROUND_HALF_UP, ROUND_HALF_EVEN
+from decimal import Decimal, ROUND_HALF_UP
 deg,dis=map(int,input().split())
 direct=["N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSW","SW","WSW","W","WNW","NW","NNW","N"]
 speed=[0,3,16,34,55,80,108,139,172,208,245,285,327]
