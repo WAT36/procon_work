@@ -1,0 +1,13 @@
+p=int(input())
+r=1000-p
+coin=[500,100,50,10,5,1]
+ans=0
+i=0
+while(r!=0):
+    ci=r//coin[i]
+    if(ci==0):
+        i+=1
+    else:
+        ans+=ci
+        r-=coin[i]*ci
+print(ans)
