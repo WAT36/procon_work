@@ -1,30 +1,39 @@
+#https://onlinejudge.u-aizu.ac.jp/courses/library/5/GRL/1/GRL_1_A
+import math
 import heapq
-v,e,r=map(int,input().split())
-INF=10**9
-d=[INF for _ in range(v)]
+V,E,r=map(int,input().split())
+edge=[[] for _ in range(V)]     # edge[i] : 頂点iからの辺、edge[i][j]:[v,c] 頂点iから頂点vまでの辺、コストc
+d=[math.inf for _ in range(V)]  #頂点sからの最短距離
 
-edge=[[] for _ in range(v)]
-for i in range(e):
+for i in range(E):
     si,ti,di=map(int,input().split())
     edge[si].append([ti,di])
+#    edge[ti].append([si,di]) #有向なのでここは無し
 
-d[r]=0
+#優先度付きキュー
 q=[]
 heapq.heapify(q)
-heapq.heappush(q, [0,r])
 
-while(len(q)>0):
-    qi=heapq.heappop(q)
-#    print(d)
-#    print(qi)
-    vi=qi[1]
-    if(d[vi] >= qi[0]):
-        for i in range(len(edge[vi])):
-            ei = edge[vi][i]
-#            print(ei)
-            if(d[ei[0]] > d[vi] + ei[1]):
-                d[ei[0]] = d[vi] + ei[1]
-                heapq.heappush(q, [d[ei[0]],ei[0]])
+def dijkstra(start):
+    d[start]=0 #初期値
+    heapq.heappush(q, [0,start])
 
-for i in range(v):
-    print(d[i] if d[i]!=INF else "INF")
+    while(len(q)!=0):
+        #まだ使われてない頂点のうち距離が最小のものを探す。ない場合は終了
+        di=heapq.heappop(q)
+        distance=di[0]
+        v=di[1]
+
+        if(d[v] < distance):
+            continue
+
+        ei = edge[v]
+        for i in range(len(ei)):
+            e = ei[i]
+            if(d[e[0]] > d[v]+e[1]):
+                d[e[0]] = d[v]+e[1]
+                heapq.heappush(q, [d[e[0]],e[0]])
+
+dijkstra(r)
+for i in range(len(d)):
+    print(d[i] if d[i]!=math.inf else "INF")
