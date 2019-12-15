@@ -1,0 +1,10 @@
+w=input().lower()
+ans=0
+while(True):
+    s=input()
+    if(s=="END_OF_TEXT"):
+        break
+    else:
+        slist=s.lower().split()
+        ans+=slist.count(w)
+print(ans)
