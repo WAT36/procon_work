@@ -1,5 +1,5 @@
 class Solution:
-    def uniqueOccurrences(self, arr: List[int]) -> bool:
+    def uniqueOccurrences(self, arr: list[int]) -> bool:
         unique_arr=list(set(arr))
         count=[]
         for i in range(len(unique_arr)):
