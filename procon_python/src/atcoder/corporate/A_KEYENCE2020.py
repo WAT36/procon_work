@@ -1,0 +1,5 @@
+h=int(input())
+w=int(input())
+n=int(input())
+maxbox=max(h,w)
+print(-(-n//maxbox))
