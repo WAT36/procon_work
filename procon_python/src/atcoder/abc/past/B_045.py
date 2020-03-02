@@ -1,0 +1,13 @@
+a=list(input())
+b=list(input())
+c=list(input())
+cards=[a,b,c]
+name=["a","b","c"]
+now=0
+while(True):
+    if(len(cards[now])==0):
+        print(name[now].upper())
+        break
+    else:
+        card=cards[now].pop(0)
+        now=name.index(card)
