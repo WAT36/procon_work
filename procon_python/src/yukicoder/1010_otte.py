@@ -1,0 +1,21 @@
+x,y,h=map(int,input().split())
+h/=1000
+ans=0
+lower=min(x,y)
+higher=max(x,y)
+while(True):
+    lower=min(lower,higher)
+    higher=max(lower,higher)
+    if(lower>h):
+        lower/=2
+        h*=2
+        ans+=1
+    elif(higher>h):
+        higher/=2
+        h*=2
+        ans+=1
+    else:
+        break
+#    print(x,y,h)
+#print(x,y,h)
+print(ans)
