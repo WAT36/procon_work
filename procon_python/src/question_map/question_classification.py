@@ -24,4 +24,5 @@ question["ARC-051-B"]=["解説見た","フィボナッチ数列","ユークリ�
 question["ARC-041-B"]=["解説見た","全探索"]
 question["ABC-162-D"]=["解説見た","全探索"]
 question["ARC-009-B"]=["解説見た","ヒネリ"]
+question["AGC-029-A"]=["ヒネリ"]
 
