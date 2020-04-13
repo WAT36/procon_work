@@ -21,7 +21,7 @@ question["ARC-002-C"]=["解説見た","動的計画法"]
 question["AOJ-ALDS-1-3-D"]=["解説見た","スタック"]
 question["AOJ-ALDS-1-4-D"]=["解説見た","二分探索"]
 question["ARC-051-B"]=["解説見た","フィボナッチ数列","ユークリッドの互除法"]
-question["ARC-041-B"]=["解説見た","ヒネリ"]
+question["ARC-041-B"]=["解説見た","全探索"]
 question["ABC-162-D"]=["解説見た","全探索"]
 question["ARC-009-B"]=["解説見た","ヒネリ"]
 
