@@ -25,5 +25,6 @@ question["ARC-041-B"]=["解説見た","全探索"]
 question["ABC-162-D"]=["解説見た","全探索"]
 question["ARC-009-B"]=["解説見た","ヒネリ"]
 question["AGC-029-A"]=["ヒネリ"]
-question["Atcoder Petrozavodsk Contest-001-B"]=["ヒネリ"]
+question["Atcoder Petrozavodsk Contest-001-B"]=["解説見た","ヒネリ"]
+question["CODE FESTIVAL 2015 あさぷろ Middle-A"]=["解説見た","ヒネリ"]
 
