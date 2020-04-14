@@ -7,6 +7,7 @@ classification=[
     "二分探索",
     "フィボナッチ数列",
     "ユークリッドの互除法",
+    "辞書(Map)",
     "全探索"
     ]
 
@@ -28,4 +29,5 @@ question["AGC-029-A"]=["ヒネリ"]
 question["Atcoder Petrozavodsk Contest-001-B"]=["解説見た","ヒネリ"]
 question["CODE FESTIVAL 2015 あさぷろ Middle-A"]=["解説見た","ヒネリ"]
 question["ABC-039-D"]=["全探索"]
+question["ARC-011-B"]=["辞書(Map)"]
 

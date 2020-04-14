@@ -8,7 +8,7 @@ q.extend([1,2,3,4,5,6,7,8,9])
 while(cnt<k):
     ans=q.popleft()
     cnt+=1
-    print(ans,cnt)
+#    print(ans,cnt)
     one_digit=ans%10
     if(one_digit==0):
         q.append(int(str(ans) + '0'))
