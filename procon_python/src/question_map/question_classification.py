@@ -27,4 +27,5 @@ question["ARC-009-B"]=["解説見た","ヒネリ"]
 question["AGC-029-A"]=["ヒネリ"]
 question["Atcoder Petrozavodsk Contest-001-B"]=["解説見た","ヒネリ"]
 question["CODE FESTIVAL 2015 あさぷろ Middle-A"]=["解説見た","ヒネリ"]
+question["ABC-039-D"]=["全探索"]
 
