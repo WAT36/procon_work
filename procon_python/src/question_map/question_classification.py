@@ -12,7 +12,9 @@ classification=[
     ]
 
 other=[
-    "解説見た"      #独力では回答不可能
+    "解説見た",         #独力では回答不可能
+    "解けてない",        #まだできてない
+    "ノーヒントクリア"    #解説見ずにできた
     ]
 
 question={}
@@ -25,10 +27,13 @@ question["ARC-051-B"]=["解説見た","フィボナッチ数列","ユークリ�
 question["ARC-041-B"]=["解説見た","全探索"]
 question["ABC-162-D"]=["解説見た","全探索"]
 question["ARC-009-B"]=["解説見た","ヒネリ"]
-question["AGC-029-A"]=["ヒネリ"]
+question["AGC-029-A"]=["ノーヒントクリア","ヒネリ"]
 question["Atcoder Petrozavodsk Contest-001-B"]=["解説見た","ヒネリ"]
 question["CODE FESTIVAL 2015 あさぷろ Middle-A"]=["解説見た","ヒネリ"]
-question["ABC-039-D"]=["全探索"]
-question["ARC-011-B"]=["辞書(Map)"]
-question["天下一プログラマーコンテスト2012 予選C-B"]=["ヒネリ"]
+question["ABC-039-D"]=["ノーヒントクリア","全探索"]
+question["ARC-011-B"]=["ノーヒントクリア","辞書(Map)"]
+question["天下一プログラマーコンテスト2012 予選C-B"]=["ノーヒントクリア","ヒネリ"]
+question["AGC-043-A"]=["解けてない","全探索","動的計画法"]
+question["ARC-035-B"]=["ノーヒントクリア","累積和"]
+
 
