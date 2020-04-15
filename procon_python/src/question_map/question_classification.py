@@ -30,4 +30,5 @@ question["Atcoder Petrozavodsk Contest-001-B"]=["解説見た","ヒネリ"]
 question["CODE FESTIVAL 2015 あさぷろ Middle-A"]=["解説見た","ヒネリ"]
 question["ABC-039-D"]=["全探索"]
 question["ARC-011-B"]=["辞書(Map)"]
+question["天下一プログラマーコンテスト2012 予選C-B"]=["ヒネリ"]
 
