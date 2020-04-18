@@ -47,6 +47,7 @@ question["ABC-129-D"]=["解けてない","行列","numpy"]
 question["ABC-115-D"]=["解説見た","再帰"]
 question["CODE FESTIVAL 2014 決勝-C"]=["ノーヒントクリア","ヒネリ"]
 question["AGC-034-B"]=["解説見た","転倒数","置換"]
+question["ARC-040-B"]=["ノーヒントクリア","ヒネリ"]
 
 
 for v in question.values():
