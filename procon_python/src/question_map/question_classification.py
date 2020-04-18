@@ -11,6 +11,8 @@ classification=[
     "行列",
     "numpy",
     "再帰",
+    "転倒数",
+    "置換",
     "全探索"
     ]
 
@@ -43,6 +45,8 @@ question["ARC-017-B"]=["ノーヒントクリア","ヒネリ"]
 question["ARC-010-B"]=["ノーヒントクリア","全探索"]
 question["ABC-129-D"]=["解けてない","行列","numpy"]
 question["ABC-115-D"]=["解説見た","再帰"]
+question["CODE FESTIVAL 2014 決勝-C"]=["ノーヒントクリア","ヒネリ"]
+question["AGC-034-B"]=["解説見た","転倒数","置換"]
 
 
 for v in question.values():
