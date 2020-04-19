@@ -49,7 +49,7 @@ question["CODE FESTIVAL 2014 決勝-C"]=["ノーヒントクリア","ヒネリ"]
 question["AGC-034-B"]=["解説見た","転倒数","置換"]
 question["ARC-040-B"]=["ノーヒントクリア","ヒネリ"]
 question["ARC-023-B"]=["ノーヒントクリア","全探索"]
-question["ABC-140-D"]=["解けてない","ヒネリ"]
+question["ABC-140-D"]=["解説見た","ヒネリ"]
 
 
 for v in question.values():
