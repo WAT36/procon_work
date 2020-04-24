@@ -58,6 +58,8 @@ question["パナソニックプログラミングコンテスト 2020-D"]=["ノ�
 question["ARC-036-B"]=["ノーヒントクリア","ヒネリ"]
 question["ARC-037-B"]=["解説見た","グラフ理論","深さ優先探索"]
 question["ARC-042-B"]=["解説見た","数学","点と直線の距離"]
+question["ARC-091-D"]=["ノーヒントクリア","ヒネリ","数学"]
+question["ARC-034-B"]=["解説見た","全探索"]
 
 
 for v in question.values():
