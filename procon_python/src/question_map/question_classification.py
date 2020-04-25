@@ -18,6 +18,7 @@ classification=[
     "数学",
     "点と直線の距離",
     "数え上げ",
+    "Union-Find木",
     "全探索"
     ]
 
@@ -69,6 +70,8 @@ question["ARC-034-B"]=["解説見た","全探索"]
 question["全国統一プログラミング王決定戦予選-C"]=["解けてない","ヒネリ"]
 question["ARC-081-D"]=["ノーヒントクリア","数え上げ"]
 question["ABC-012-D"]=["解説見た","グラフ理論","ワーシャル・フロイド法","ダイクストラ法","Pythonだと時間オーバー","Javaだと時間内クリア"]
+question["ARC-032-B"]=["解説見た","解けてない","グラフ理論","Union-Find木"]
+question["ABC-157-D"]=["解説見た","グラフ理論","Union-Find木"]
 
 
 for v in question.values():
