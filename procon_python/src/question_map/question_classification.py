@@ -75,6 +75,7 @@ question["ABC-012-D"]=["解説見た","グラフ理論","ワーシャル・フ�
 question["ARC-032-B"]=["解説見た","グラフ理論","Union-Find木"]
 question["ABC-157-D"]=["解説見た","グラフ理論","Union-Find木"]
 question["ABC-156-D"]=["解けてない","組み合わせ","繰り返し二乗法"]
+question["三井住友信託銀行プログラミングコンテスト2019-E"]=["解説見た","ヒネリ"]
 
 
 for v in question.values():
