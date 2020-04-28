@@ -36,6 +36,10 @@ other=[
     ]
 
 question={}
+#茶問
+question["CODE FESTIVAL 2015 予選-B"]=["ノーヒントクリア","ヒネリ"]
+
+#緑問（一部その他）
 question["ABC-161-D"]=["解説見た","キュー"]
 question["ABC-161-E"]=["解説見た","貪欲法"]
 question["ARC-002-C"]=["解説見た","動的計画法"]
@@ -76,6 +80,8 @@ question["ARC-032-B"]=["解説見た","グラフ理論","Union-Find木"]
 question["ABC-157-D"]=["解説見た","グラフ理論","Union-Find木"]
 question["ABC-156-D"]=["解けてない","組み合わせ","繰り返し二乗法"]
 question["三井住友信託銀行プログラミングコンテスト2019-E"]=["解説見た","ヒネリ"]
+question["ABC-146-D"]=["解けてない","グラフ理論","深さ優先探索"]
+question["AGC-014-B"]=["解けてない","グラフ理論"]
 
 
 for v in question.values():
