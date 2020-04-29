@@ -87,6 +87,7 @@ question["AGC-014-B"]=["解けてない","グラフ理論"]
 question["ABC-147-D"]=["解けてない","数学","XOR"]
 question["ABC-070-D"]=["解説見た","グラフ理論","木","深さ優先探索"]
 question["AGC-003-B"]=["ノーヒントクリア","ヒネリ"]
+question["ABC-132-D"]=["解説見た","組み合わせ"]
 
 
 for v in question.values():
