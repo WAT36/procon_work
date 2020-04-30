@@ -33,6 +33,7 @@ isclear=[
     ]
 
 other=[
+    "難しく考えすぎ"       #解説見たら解法あっけなかった時,
     "Pythonだと時間オーバー",
     "Javaだと時間内クリア"
     ]
@@ -89,6 +90,7 @@ question["ABC-070-D"]=["解説見た","グラフ理論","木","深さ優先探�
 question["AGC-003-B"]=["ノーヒントクリア","ヒネリ"]
 question["ABC-132-D"]=["解説見た","組み合わせ"]
 question["ABC-109-D"]=["ノーヒントクリア","全探索"]
+question["Indeedなう(予選A)-C"]=["解説見た","ヒネリ","難しく考えすぎ"]
 
 
 for v in question.values():
