@@ -57,6 +57,7 @@ question["ABC-159-E"]=["解けてない","全探索","行列","numpy?","難し�
 question["ABC-161-D"]=["解説見た","キュー"]
 question["ABC-161-E"]=["解説見た","貪欲法"]
 question["ABC-162-D"]=["解説見た","全探索"]
+question["ABC-166-E"]=["解けてない","置換"]
 question["ARC-002-C"]=["解説見た","動的計画法"]
 question["ARC-009-B"]=["解説見た","ヒネリ"]
 question["ARC-010-B"]=["ノーヒントクリア","全探索"]
