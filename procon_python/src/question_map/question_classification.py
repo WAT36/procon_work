@@ -23,6 +23,7 @@ classification=[
     "繰り返し二乗法",
     "XOR",
     "木",
+    "二分法",
     "全探索"
     ]
 
@@ -82,6 +83,7 @@ question["AGC-029-A"]=["緑問","ノーヒントクリア","ヒネリ"]
 question["AGC-034-B"]=["緑問","解説見た","転倒数","置換"]
 question["AGC-043-A"]=["緑問","解説見た","全探索","動的計画法"]
 question["Atcoder Petrozavodsk Contest-001-B"]=["緑問","解説見た","ヒネリ"]
+question["Atcoder Petrozavodsk Contest-001-C"]=["緑問","解説見た","二分法"]
 question["CODE FESTIVAL 2014 決勝-C"]=["緑問","ノーヒントクリア","ヒネリ"]
 question["CODE FESTIVAL 2015 予選-B"]=["緑問","ノーヒントクリア","ヒネリ"]
 question["CODE FESTIVAL 2015 あさぷろ Middle-A"]=["緑問","解説見た","ヒネリ"]
