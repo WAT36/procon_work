@@ -1,0 +1,10 @@
+a,k=map(int,input().split())
+ans=0
+m=a
+if(k==0):
+    print(2*(10**12)-a)
+else:
+    while(m<2*(10**12)):
+        m+=(1+k*m)
+        ans+=1
+    print(ans)
