@@ -11,8 +11,6 @@ for i in range(len(a)):
         elif(i<j and a[i]>a[j]):
             r[i]+=1
 
-print(l)
-print(r)
 ans=((k*(1+k)*sum(r)//2) + (k*(k-1)*sum(l)//2))%MOD
 print(ans)
 
