@@ -136,7 +136,8 @@ question["ABC-192-E"]=["緑問","ダイクストラ法(合ってるはずなの�
 question["ABC-165-C"]=["緑問"]
 question["ARC-111-A"]=["緑問"]
 question["AGC-033-A"]=["緑問","幅優先探索"]
-question["ABC-188-E"]=["緑問","有向グラフ、動的計画法"]
+question["ABC-188-E"]=["緑問","有向グラフ","動的計画法"]
+question["ABC-181-E"]=["緑問","ヒネリ"]
 
 
 question["ABC-196-D"]=["全探索","深さ優先探索"]
