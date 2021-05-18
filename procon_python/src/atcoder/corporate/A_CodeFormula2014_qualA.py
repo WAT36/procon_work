@@ -1,0 +1,9 @@
+a=int(input())
+i=1
+while(i**3<=a):
+    if(i**3==a):
+        print('YES')
+        break
+    i+=1
+else:
+    print('NO')
