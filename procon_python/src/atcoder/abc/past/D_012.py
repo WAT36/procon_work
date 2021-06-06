@@ -1,22 +1,22 @@
+INF=float('inf')
 n,m=map(int,input().split())
-inf=float("inf")
-d=[[inf for _ in range(n)] for _ in range(n)]
-for i in range(n):
+d=[[INF for _ in range(n+1)] for _ in range(n+1)]
+
+for i in range(1,n+1):
     d[i][i]=0
 
 for i in range(m):
     a,b,t=map(int,input().split())
-    d[a-1][b-1]=t
-    d[b-1][a-1]=t
+    d[a][b]=t
+    d[b][a]=t
 
-for a in range(n):
-    for b in range(n):
-        for c in range(n):
+
+for a in range(n+1):
+    for b in range(n+1):
+        for c in range(n+1):
             d[b][c] = min(d[b][c],d[b][a]+d[a][c])
 
-ans=inf
-for i in range(n):
-#    print(d[i])
-    ans=min(ans,max(d[i]))
+ans=INF
+for i in range(1,n+1):
+    ans=min(ans,max(d[i][1:]))
 print(ans)
-
