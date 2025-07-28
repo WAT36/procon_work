@@ -26,3 +26,9 @@ class TreeNode:
                 queue.append(node.left)
                 queue.append(node.right)
         return ans
+    
+    # 左右逆にしたTreeNodeを返す（0226）
+    def makeInverseTreeNode(self,root: Optional[TreeNode]):
+        if root is None:
+            return None
+        return TreeNode(val=root.val,left=self.makeInverseTreeNode(root=root.right),right=self.makeInverseTreeNode(root=root.left))
