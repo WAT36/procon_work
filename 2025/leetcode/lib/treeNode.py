@@ -8,7 +8,7 @@ class TreeNode:
     # treeNodeをListにする
     def treeNodeToList(self, t:Optional[TreeNode]):
         if(t is None):
-            return [None]
+            return []
         leftList= [*self.treeNodeToList(t.left)]
         rightList= [*self.treeNodeToList(t.right)]
         return [t.val,*leftList,*rightList]
