@@ -1,0 +1,9 @@
+class Solution:
+    def finalPrices(self, prices: List[int]) -> List[int]:
+        ans=[]
+        for i in range(len(prices)):
+            j=i+1
+            while j<len(prices) and prices[j]>prices[i]:
+                j+=1
+            ans.append(prices[i]-prices[j] if j<len(prices) else prices[i])
+        return ans
