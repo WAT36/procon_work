@@ -6,4 +6,4 @@ class Solution:
             if nums[i] in ansi:
                 ans.append(nums[i])
                 ansi.remove(nums[i])
-        return anss
+        return ans
